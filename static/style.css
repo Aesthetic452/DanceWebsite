@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    z-index: 100;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    display: flex;
+    color: white; 
+    justify-content: left; 
+    margin-left: 5px;
+    margin-right: 1160px;
+
+}
+#logo img{
+    height: 35px;
+    margin-top: 0px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+#navbar{
+    position:fixed;
+    /* background-color: black;  */
+    padding: 4px 20px;
+    height: 42px;
+    width:100%;
+}
+
+#navbar ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+    margin-top: 5px;
+    /* align-items: center; */
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    color: white;
+    text-decoration: none;
+    padding: 2px 15px;
+}
+#navbar li a:hover{
+    font-size: 23px;  
+}
+#introSection video {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:50%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+/* .overlay{
+    position:absolute;
+    top:42px;
+    left:0;
+    width: 100%;
+    height:50%;
+    background: rgba(7, 26, 35, 0.373);
+} */
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    z-index: 100;
+    height: 400px;
+}
+#introSection div.small{
+    font-size: 35px;
+    padding: 5px;
+    z-index: 100;
+}
+
+#missionSection{
+    height: 358px;; 
+    width: 80%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 32px 20px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.card-img{
+    height: 131px;
+    padding: 0 0px;
+    margin: 2px 0px;
+}
+.card-content{
+    padding: 5px;
+    font-size: 17px;
+}
+.card-img img{
+    height: 120px; 
+}
+
+#sponsorsSection{
+    
+    height: 300px;
+    background-color: #ce5555c7;
+}
+#sponsorsSection h2{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 100px;
+    margin: 30px;
+}
+
+#footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: black;
+    height: 40px;
+}

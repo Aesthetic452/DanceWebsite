@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+   script(src="/static/index.js") 
+block style
+    style
+        include ../static/style.css
+        include ../static/locationStyle.css
+
+block content
+    div#location
+        iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.6449123525026!2d78.59516471498077!3d25.45013238377907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397776d5747c793b%3A0x9367fee09c3dac58!2sA%20To%20Z%20Infraspares%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1656358503381!5m2!1sen!2sin', width='1530', height='640', style='border:0;', allowfullscreen='', loading='lazy', referrerpolicy='no-referrer-when-downgrade')
+    div#logi
+        div#social
+            a.facebook(href='https://www.facebook.com/')
+                i.fa.fa-facebook
+            a.twitter(href='#twitter')
+                i.fa.fa-twitter
+            a.linkedin(href='#linkedin')
+                i.fa.fa-linkedin
+            a.google(href='#google')
+                i.fa.fa-google
+            a.instagram(href='#instagram')
+                i.fa.fa-instagram
+        p Copyright ©  2022 NiharAcademy.com  | Rights Reserved
+    //- footer#footer
+    //-     //- | Copyright ©  2022 NiharAcademy.com  | All Rights Reserved

@@ -1,0 +1,64 @@
+ #navbar {
+     position: fixed;
+     background-color: #aa4444;
+     padding: 4px 20px;
+     height: 42px;
+     width: 100%;
+ }
+
+ 
+ #logi {
+     height: 115px;
+     background-color: black;
+     color: white;
+
+ }
+
+
+ #social {
+     display: flex;
+     flex-direction: row;
+     width: 1500px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ #social a{
+    margin-top: 5px;
+    font-size: 40px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+ }
+ #social a :hover{
+    font-size: 30px;
+ }
+
+ /* Now we have to design each icon of social media */
+ .facebook {
+     /* background: #3b5998; */
+     color: white;
+ }
+
+ .twitter {
+     color: white;
+     /* background: #00acee; */
+ }
+
+ .linkedin {
+     /* background: #0e76a8; */
+     color: white;
+ }
+
+ .google {
+     color: white;
+     /* background: #db4a39; */
+ }
+
+ .instagram {
+     /* background: #3f729b; */
+     color: white;
+ }
+ p {
+    display: block;
+    text-align: center;
+}
